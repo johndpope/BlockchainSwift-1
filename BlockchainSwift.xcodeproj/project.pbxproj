@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31BA5A761FDD56C500042F75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA5A751FDD56C500042F75 /* AppDelegate.swift */; };
+		31BA5A781FDD56C500042F75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA5A771FDD56C500042F75 /* ViewController.swift */; };
+		31BA5A7B1FDD56C500042F75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31BA5A791FDD56C500042F75 /* Main.storyboard */; };
+		31BA5A7E1FDD56C500042F75 /* BlockchainSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31BA5A7C1FDD56C500042F75 /* BlockchainSwift.xcdatamodeld */; };
+		31BA5A801FDD56C500042F75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BA5A7F1FDD56C500042F75 /* Assets.xcassets */; };
+		31BA5A831FDD56C500042F75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31BA5A811FDD56C500042F75 /* LaunchScreen.storyboard */; };
+		31BA5A8E1FDD56C500042F75 /* BlockchainSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA5A8D1FDD56C500042F75 /* BlockchainSwiftTests.swift */; };
+		31BA5A991FDD56C600042F75 /* BlockchainSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA5A981FDD56C600042F75 /* BlockchainSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31BA5A8A1FDD56C500042F75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31BA5A6A1FDD56C500042F75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31BA5A711FDD56C500042F75;
+			remoteInfo = BlockchainSwift;
+		};
+		31BA5A951FDD56C600042F75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31BA5A6A1FDD56C500042F75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31BA5A711FDD56C500042F75;
+			remoteInfo = BlockchainSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31BA5A721FDD56C500042F75 /* BlockchainSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockchainSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31BA5A751FDD56C500042F75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31BA5A771FDD56C500042F75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31BA5A7A1FDD56C500042F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31BA5A7D1FDD56C500042F75 /* BlockchainSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlockchainSwift.xcdatamodel; sourceTree = "<group>"; };
+		31BA5A7F1FDD56C500042F75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31BA5A821FDD56C500042F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31BA5A841FDD56C500042F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31BA5A891FDD56C500042F75 /* BlockchainSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockchainSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31BA5A8D1FDD56C500042F75 /* BlockchainSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockchainSwiftTests.swift; sourceTree = "<group>"; };
+		31BA5A8F1FDD56C500042F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31BA5A941FDD56C600042F75 /* BlockchainSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockchainSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31BA5A981FDD56C600042F75 /* BlockchainSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockchainSwiftUITests.swift; sourceTree = "<group>"; };
+		31BA5A9A1FDD56C600042F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31BA5A6F1FDD56C500042F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BA5A861FDD56C500042F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BA5A911FDD56C600042F75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31BA5A691FDD56C500042F75 = {
+			isa = PBXGroup;
+			children = (
+				31BA5A741FDD56C500042F75 /* BlockchainSwift */,
+				31BA5A8C1FDD56C500042F75 /* BlockchainSwiftTests */,
+				31BA5A971FDD56C600042F75 /* BlockchainSwiftUITests */,
+				31BA5A731FDD56C500042F75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31BA5A731FDD56C500042F75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31BA5A721FDD56C500042F75 /* BlockchainSwift.app */,
+				31BA5A891FDD56C500042F75 /* BlockchainSwiftTests.xctest */,
+				31BA5A941FDD56C600042F75 /* BlockchainSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31BA5A741FDD56C500042F75 /* BlockchainSwift */ = {
+			isa = PBXGroup;
+			children = (
+				31BA5A751FDD56C500042F75 /* AppDelegate.swift */,
+				31BA5A771FDD56C500042F75 /* ViewController.swift */,
+				31BA5A791FDD56C500042F75 /* Main.storyboard */,
+				31BA5A7F1FDD56C500042F75 /* Assets.xcassets */,
+				31BA5A811FDD56C500042F75 /* LaunchScreen.storyboard */,
+				31BA5A841FDD56C500042F75 /* Info.plist */,
+				31BA5A7C1FDD56C500042F75 /* BlockchainSwift.xcdatamodeld */,
+			);
+			path = BlockchainSwift;
+			sourceTree = "<group>";
+		};
+		31BA5A8C1FDD56C500042F75 /* BlockchainSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				31BA5A8D1FDD56C500042F75 /* BlockchainSwiftTests.swift */,
+				31BA5A8F1FDD56C500042F75 /* Info.plist */,
+			);
+			path = BlockchainSwiftTests;
+			sourceTree = "<group>";
+		};
+		31BA5A971FDD56C600042F75 /* BlockchainSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31BA5A981FDD56C600042F75 /* BlockchainSwiftUITests.swift */,
+				31BA5A9A1FDD56C600042F75 /* Info.plist */,
+			);
+			path = BlockchainSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31BA5A711FDD56C500042F75 /* BlockchainSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31BA5A9D1FDD56C600042F75 /* Build configuration list for PBXNativeTarget "BlockchainSwift" */;
+			buildPhases = (
+				31BA5A6E1FDD56C500042F75 /* Sources */,
+				31BA5A6F1FDD56C500042F75 /* Frameworks */,
+				31BA5A701FDD56C500042F75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockchainSwift;
+			productName = BlockchainSwift;
+			productReference = 31BA5A721FDD56C500042F75 /* BlockchainSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31BA5A881FDD56C500042F75 /* BlockchainSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31BA5AA01FDD56C600042F75 /* Build configuration list for PBXNativeTarget "BlockchainSwiftTests" */;
+			buildPhases = (
+				31BA5A851FDD56C500042F75 /* Sources */,
+				31BA5A861FDD56C500042F75 /* Frameworks */,
+				31BA5A871FDD56C500042F75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31BA5A8B1FDD56C500042F75 /* PBXTargetDependency */,
+			);
+			name = BlockchainSwiftTests;
+			productName = BlockchainSwiftTests;
+			productReference = 31BA5A891FDD56C500042F75 /* BlockchainSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31BA5A931FDD56C600042F75 /* BlockchainSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31BA5AA31FDD56C600042F75 /* Build configuration list for PBXNativeTarget "BlockchainSwiftUITests" */;
+			buildPhases = (
+				31BA5A901FDD56C600042F75 /* Sources */,
+				31BA5A911FDD56C600042F75 /* Frameworks */,
+				31BA5A921FDD56C600042F75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31BA5A961FDD56C600042F75 /* PBXTargetDependency */,
+			);
+			name = BlockchainSwiftUITests;
+			productName = BlockchainSwiftUITests;
+			productReference = 31BA5A941FDD56C600042F75 /* BlockchainSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31BA5A6A1FDD56C500042F75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Shalom Friss";
+				TargetAttributes = {
+					31BA5A711FDD56C500042F75 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					31BA5A881FDD56C500042F75 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31BA5A711FDD56C500042F75;
+					};
+					31BA5A931FDD56C600042F75 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31BA5A711FDD56C500042F75;
+					};
+				};
+			};
+			buildConfigurationList = 31BA5A6D1FDD56C500042F75 /* Build configuration list for PBXProject "BlockchainSwift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31BA5A691FDD56C500042F75;
+			productRefGroup = 31BA5A731FDD56C500042F75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31BA5A711FDD56C500042F75 /* BlockchainSwift */,
+				31BA5A881FDD56C500042F75 /* BlockchainSwiftTests */,
+				31BA5A931FDD56C600042F75 /* BlockchainSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31BA5A701FDD56C500042F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BA5A831FDD56C500042F75 /* LaunchScreen.storyboard in Resources */,
+				31BA5A801FDD56C500042F75 /* Assets.xcassets in Resources */,
+				31BA5A7B1FDD56C500042F75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BA5A871FDD56C500042F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BA5A921FDD56C600042F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31BA5A6E1FDD56C500042F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BA5A7E1FDD56C500042F75 /* BlockchainSwift.xcdatamodeld in Sources */,
+				31BA5A781FDD56C500042F75 /* ViewController.swift in Sources */,
+				31BA5A761FDD56C500042F75 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BA5A851FDD56C500042F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BA5A8E1FDD56C500042F75 /* BlockchainSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BA5A901FDD56C600042F75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BA5A991FDD56C600042F75 /* BlockchainSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31BA5A8B1FDD56C500042F75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31BA5A711FDD56C500042F75 /* BlockchainSwift */;
+			targetProxy = 31BA5A8A1FDD56C500042F75 /* PBXContainerItemProxy */;
+		};
+		31BA5A961FDD56C600042F75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31BA5A711FDD56C500042F75 /* BlockchainSwift */;
+			targetProxy = 31BA5A951FDD56C600042F75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31BA5A791FDD56C500042F75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31BA5A7A1FDD56C500042F75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31BA5A811FDD56C500042F75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31BA5A821FDD56C500042F75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31BA5A9B1FDD56C600042F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31BA5A9C1FDD56C600042F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31BA5A9E1FDD56C600042F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NN27Z7TQR;
+				INFOPLIST_FILE = BlockchainSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.knucklemedia.BlockchainSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31BA5A9F1FDD56C600042F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NN27Z7TQR;
+				INFOPLIST_FILE = BlockchainSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.knucklemedia.BlockchainSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31BA5AA11FDD56C600042F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NN27Z7TQR;
+				INFOPLIST_FILE = BlockchainSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.knucklemedia.BlockchainSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockchainSwift.app/BlockchainSwift";
+			};
+			name = Debug;
+		};
+		31BA5AA21FDD56C600042F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NN27Z7TQR;
+				INFOPLIST_FILE = BlockchainSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.knucklemedia.BlockchainSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockchainSwift.app/BlockchainSwift";
+			};
+			name = Release;
+		};
+		31BA5AA41FDD56C600042F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NN27Z7TQR;
+				INFOPLIST_FILE = BlockchainSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.knucklemedia.BlockchainSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlockchainSwift;
+			};
+			name = Debug;
+		};
+		31BA5AA51FDD56C600042F75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NN27Z7TQR;
+				INFOPLIST_FILE = BlockchainSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.knucklemedia.BlockchainSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlockchainSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31BA5A6D1FDD56C500042F75 /* Build configuration list for PBXProject "BlockchainSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BA5A9B1FDD56C600042F75 /* Debug */,
+				31BA5A9C1FDD56C600042F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31BA5A9D1FDD56C600042F75 /* Build configuration list for PBXNativeTarget "BlockchainSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BA5A9E1FDD56C600042F75 /* Debug */,
+				31BA5A9F1FDD56C600042F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31BA5AA01FDD56C600042F75 /* Build configuration list for PBXNativeTarget "BlockchainSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BA5AA11FDD56C600042F75 /* Debug */,
+				31BA5AA21FDD56C600042F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31BA5AA31FDD56C600042F75 /* Build configuration list for PBXNativeTarget "BlockchainSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BA5AA41FDD56C600042F75 /* Debug */,
+				31BA5AA51FDD56C600042F75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		31BA5A7C1FDD56C500042F75 /* BlockchainSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				31BA5A7D1FDD56C500042F75 /* BlockchainSwift.xcdatamodel */,
+			);
+			currentVersion = 31BA5A7D1FDD56C500042F75 /* BlockchainSwift.xcdatamodel */;
+			path = BlockchainSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 31BA5A6A1FDD56C500042F75 /* Project object */;
+}
